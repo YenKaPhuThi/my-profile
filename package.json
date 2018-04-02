@@ -1,0 +1,26 @@
+{
+  "name": "my-profile",
+  "version": "1.0.0",
+  "description": "This is my profile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YenKaPhuThi/my-profile.git"
+  },
+  "author": "thi-yen.ka-phu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YenKaPhuThi/my-profile/issues"
+  },
+  "homepage": "https://github.com/YenKaPhuThi/my-profile#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.2.1"
+  }
+}
