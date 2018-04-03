@@ -1,13 +1,11 @@
 @import 'common/variable';
 @import 'common/boostrap';
 @import 'common/mixins';
+@import 'common/fonts';
 @import 'common/general';
+@import 'common/nav';
 
 // Detail css pages
 @import 'components/blog';
 @import 'components/resume';
 @import 'components/project';
-
-body {
-  background: yellow;
-}
