@@ -1,0 +1,89 @@
+nav {
+  background: $color-alabaster;
+  border-top: 2px solid $color-pizazz;
+  line-height: 48px;
+  overflow: hidden;
+
+  .brand-name {
+    color: $color-pizazz;
+    text-align: center;
+    margin: 25px 0 3px;
+    line-height: 48px;
+  }
+
+  .choice-btn {
+    color: $color-abbey;
+    cursor: pointer;
+    display: block;
+    border: 1px solid $color-mercury;
+    line-height: 30px;
+    padding: 2px 10px;
+    font-size: 12px;
+  }
+
+  .menu-item {
+    background-color: $color-mercury;
+    height: 0;
+
+    &__link {
+      color: $color-pizazz;
+      display: block;
+      padding: 0 10px;
+      text-transform: uppercase;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: $color-white;
+        background-color: $color-pizazz;
+        transition: background-color .5s;
+      }
+    }
+
+    .active {
+      color: $color-white;
+      background-color: $color-pizazz;
+      transition: background-color .5s;
+    }
+  }
+
+  .open {
+    height: auto;
+    transition: height 1s;
+  }
+}
+
+//@Media
+@media (min-width: 768px) {
+  nav {
+    border-top: 4px solid $color-pizazz;
+    line-height: 96px;
+
+    .choice-btn {
+      display: none;
+    }
+
+    .brand-name {
+      float: left;
+      text-align: left;
+      margin: 0;
+      line-height: 96px;
+    }
+
+    .menu-item {
+      background-color: inherit;
+      height: auto;
+      float: right;
+
+      &__item {
+        display: inline-block;
+        float: left;
+      }
+
+      &__link {
+        display: inline;
+        padding: 40px 20px;
+      }
+    }
+  }
+}

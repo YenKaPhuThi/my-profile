@@ -1,0 +1,39 @@
+// Reset css styling
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+
+a {
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+body {
+  color: $color-mine-shaft;
+  background: $color-mercury;
+  height: 100vh;
+}
+
+#wrapper {
+  overflow: hidden;
+}
