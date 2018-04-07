@@ -22,6 +22,8 @@
     "gulp": "^3.9.1",
     "gulp-pug": "^3.3.0",
     "gulp-sass": "^3.2.1",
+    "gulp-watch": "^5.0.0",
+    "gulp-watch-pug": "^1.0.0",
     "jquery": "^3.3.1"
   }
 }
