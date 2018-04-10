@@ -1,0 +1,20 @@
+.strong {
+  color: $color-pizazz;
+}
+
+.title {
+  margin: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $montserrat-bold;
+}
+
+.half {
+  border: 0;
+  background-image: -webkit-linear-gradient(left,transparent,rgba(0,0,0,.1),transparent);
+  background-image: -moz-linear-gradient(left,transparent,rgba(0,0,0,.1),transparent);
+  background-image: -ms-linear-gradient(left,transparent,rgba(0,0,0,.1),transparent);
+  background-image: -o-linear-gradient(left,transparent,rgba(0,0,0,.1),transparent);
+  height: 1px;
+  margin: 30px 0;
+}
