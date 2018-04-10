@@ -1,0 +1,5 @@
+@include font-face('montserrat light', 'Montserrat-Light', 'Montserrat-Light', normal, normal);
+@include font-face('montserrat bold', 'Montserrat-Bold', 'Montserrat-Bold', normal, normal);
+
+$montserrat-light: 'montserrat light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$montserrat-bold: 'montserrat bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;

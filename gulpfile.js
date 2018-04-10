@@ -36,6 +36,11 @@ gulp.task('img', function() {
   .pipe(browserSync.reload({stream: true}))
 });
 
+gulp.task('font', function() {
+  return gulp.src(['app/assets/fonts/**/*.eot', 'app/assets/fonts/**/*.svg', 'app/assets/fonts/**/*.ttf', 'app/assets/fonts/**/*.woff', 'app/assets/fonts/**/*.woff2'])
+  .pipe(gulp.dest('build/assets/fonts'))
+  .pipe(browserSync.reload({stream: true}))
+});
 
 gulp.task('js', function() {
   return gulp.src('app/assets/js/*.js')
@@ -51,7 +56,7 @@ gulp.task('browserSync', function() {
   })
 });
 
-gulp.task('watch', ['index', 'pug', 'sass', 'img', 'js', 'browserSync'], function(){
+gulp.task('watch', ['index', 'pug', 'sass', 'img', 'js', 'font', 'browserSync'], function(){
   gulp.watch('app/*.pug', ['pug']);
   gulp.watch('app/tmpl/**/*.pug', ['pug']);
   gulp.watch('app/assets/scss/*.scss', ['sass']);
