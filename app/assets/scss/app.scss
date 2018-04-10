@@ -3,10 +3,12 @@
 @import 'common/mixins';
 @import 'common/fonts';
 @import 'common/general';
+@import 'common/style';
 @import 'common/nav';
 @import 'common/footer';
 
 // Detail css pages
+@import 'components/home';
 @import 'components/blog';
 @import 'components/resume';
 @import 'components/project';
