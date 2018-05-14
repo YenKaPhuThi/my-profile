@@ -18,3 +18,43 @@
   height: 1px;
   margin: 30px 0;
 }
+
+.btn-main {
+  color: $color-white;
+  background: $color-pizazz;
+  min-width: 200px;
+  text-transform: uppercase;
+  font-family: $montserrat-bold;
+}
+
+.modal {
+  &-header {
+    .close {
+      color: $color-white;
+      background: $color-black;
+      opacity: 1;
+
+      &:hover,
+      &:focus {
+        opacity: .5;
+      }
+    }
+
+    &__title {
+      text-transform: uppercase;
+      font-family: $montserrat-bold;
+    }
+  }
+
+  &-content {
+    border-radius: 0;
+  }
+
+  &-body {
+    &__title {
+      display: block;
+      margin: 0 auto 10px;
+      font-family: $montserrat-bold;
+    }
+  }
+}
